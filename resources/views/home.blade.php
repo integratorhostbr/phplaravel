@@ -78,7 +78,7 @@
 </head>
 <body>
     <main class="card">
-        <div class="badge">Deploy via Git no Painel ICP - ANDRE</div>
+        <div class="badge">Deploy via Git no Painel ICP - Nova Mudança Edson</div>
         <h1>Aplicativo Laravel publicado com sucesso via GITHUB🚀</h1>
         <p>
             Este é um projeto simples criado para demonstrar, em vídeo, como enviar um aplicativo Laravel para o GitHub
