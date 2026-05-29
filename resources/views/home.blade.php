@@ -104,7 +104,7 @@
             </div>
         </div>
 
-        <a class="cta" href="https://integrator.com.br" target="_blank" rel="noopener">Integrator Host - PAINEL ICP</a>
+        <a class="cta" href="https://integrator.com.br" target="_blank" rel="noopener">Integrator Host - PAINEL ICP versão 1</a>
     </main>
 </body>
 </html>
