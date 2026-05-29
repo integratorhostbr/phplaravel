@@ -1,0 +1,14 @@
+[2026-05-29 14:24:52] production.ERROR: The /Users/integratorhost/Desktop/integrator-laravel-demo/bootstrap/cache directory must be present and writable. {"exception":"[object] (Exception(code: 0): The /Users/integratorhost/Desktop/integrator-laravel-demo/bootstrap/cache directory must be present and writable. at /Users/integratorhost/Desktop/integrator-laravel-demo/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php:179)
+[stacktrace]
+#0 /Users/integratorhost/Desktop/integrator-laravel-demo/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(132): Illuminate\\Foundation\\PackageManifest->write(Array)
+#1 /Users/integratorhost/Desktop/integrator-laravel-demo/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(108): Illuminate\\Foundation\\PackageManifest->build()
+#2 /Users/integratorhost/Desktop/integrator-laravel-demo/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(90): Illuminate\\Foundation\\PackageManifest->getManifest()
+#3 /Users/integratorhost/Desktop/integrator-laravel-demo/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(79): Illuminate\\Foundation\\PackageManifest->config('aliases')
+#4 /Users/integratorhost/Desktop/integrator-laravel-demo/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#5 /Users/integratorhost/Desktop/integrator-laravel-demo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(342): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Illuminate\\Foundation\\Application))
+#6 /Users/integratorhost/Desktop/integrator-laravel-demo/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(494): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#7 /Users/integratorhost/Desktop/integrator-laravel-demo/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(196): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#8 /Users/integratorhost/Desktop/integrator-laravel-demo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1235): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 /Users/integratorhost/Desktop/integrator-laravel-demo/artisan(10): Illuminate\\Foundation\\Application->handleCommand(Object(Symfony\\Component\\Console\\Input\\ArgvInput))
+#10 {main}
+"} 
